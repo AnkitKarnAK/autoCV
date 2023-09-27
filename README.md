@@ -49,6 +49,6 @@ PS: If you liked the template, do star :star: it! Thanks!
 - [gradfolio](https://github.com/jitinnair1/gradfolio) - a minimal, quick-setup template for a personal website/portfolio
 - [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
 
+<img width="1476" alt="image" src="https://github.com/AnkitKarnAK/autoCV/assets/45123508/8500e8af-5b2b-421e-a818-1fe3fab7d067">
 
-<img width="1474" alt="image" src="https://github.com/AnkitKarnAK/autoCV/assets/45123508/ca48ce65-dc08-4e06-b9a0-e172dd2e0be3">
 
