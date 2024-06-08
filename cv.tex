@@ -1,7 +1,7 @@
-%----------------------------------------------------------------------------------------
-%	THE MIT LICENSE
-%----------------------------------------------------------------------------------------
-%	(C) 2021 Jitin Nair
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
+%	The MIT License (MIT)
+%
+%	Copyright (c) 2021 Jitin Nair
 %
 %	Permission is hereby granted, free of charge, to any person obtaining a copy
 %	of this software and associated documentation files (the "Software"), to deal
@@ -18,168 +18,31 @@
 %	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 %	THE SOFTWARE.
 %	
-%----------------------------------------------------------------------------------------
-
-%----------------------------------------------------------------------------------------
-%	DOCUMENT DEFINITION
-%----------------------------------------------------------------------------------------
-\documentclass[a4paper,12pt]{article}
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES
-%----------------------------------------------------------------------------------------
-\usepackage{url}
-\usepackage{parskip} 	
-
-% Packages for formatting
-\RequirePackage{color}
-\RequirePackage{graphicx}
-\usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[scale=0.9]{geometry}
-
-% Tabular and list environments
-\usepackage{tabularx}
-\usepackage{enumitem}
-\newcolumntype{C}{>{\centering\arraybackslash}X}
-\usepackage{supertabular}
-
-% Custom \section
-\usepackage{titlesec}				
-\usepackage{multicol}
-\usepackage{multirow}
-
-% Publications
-\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
-
-% Setup hyperref package
-\usepackage[unicode, draft=false]{hyperref}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\addbibresource{citations.bib}
-\setlength\bibitemsep{1em}
-
-% Social icons
-\usepackage{fontawesome5}
-
-%----------------------------------------------------------------------------------------
-%	BEGIN DOCUMENT
-%----------------------------------------------------------------------------------------
-\begin{document}
-
-% Non-numbered pages
-\pagestyle{empty} 
-
-%----------------------------------------------------------------------------------------
-%	TITLE
-%----------------------------------------------------------------------------------------
-\begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Ankit Karn} \\[7.5pt]
-\textbf{Founding Engineer} \\[7.5pt]
-\href{https://github.com/ankitkarnak}{\raisebox{-0.05\height}\faGithub\ ankitkarnak} \ $|$ \ 
-\href{https://linkedin.com/in/ankitkarnak}{\raisebox{-0.05\height}\faLinkedin\ ankitkarnak} \ $|$ \ 
-\href{https://ankitkarn.vercel.app}{\raisebox{-0.05\height}\faGlobe \ ankitkarn.vercel.app} \ $|$ \ 
-\href{mailto:ankit.karn.ak@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ ankit.karn.ak@gmail.com} \ $|$ \ 
-\href{tel:+919518287083}{\raisebox{-0.05\height}\faMobile \ +919518287083} \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-% SUMMARY
-%----------------------------------------------------------------------------------------
-\section{Summary}
-Founding Engineer at an early-stage e-commerce startup, I showcased proficiency in technologies such as React, Next.js, TypeScript, JavaScript, and GraphQL. In this role, I took the lead in developing fundamental e-commerce features from the ground up, ensuring a competitive and robust platform. Leveraging my prior experience as an SDE2, I also focused on scaling payment systems and enhancing security and compliance for an all-encompassing impact.
-
-%----------------------------------------------------------------------------------------
-% WORK EXPERIENCE
-%----------------------------------------------------------------------------------------
-\section{Work Experience}
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Founding Engineer}, \textsc{DSLR Technologies} & \hfill June 2023 - Present \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-\begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item Implemented core e-commerce features like Products, Collection, Cart, Checkout, Wishlist, Buy Now, Order on WhatsApp, Return Refund, Search and Filter, and more from scratch.
-        \item Migrated project from our proprietary backend to the Shopify backend, seamlessly integrating our custom frontend with Shopify's GraphQL Storefront APIs.
-        \item Implemented A/B features, allowing to have different UI flows simultaneously, to test which one is giving better outcomes.
-    \end{itemize}
-\end{minipage}
-}
-\end{tabularx}
-
-\vspace{10pt}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{SDE II Frontend}, \textsc{BukuWarung} & \hfill Dec 2021 - May 2023 \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-\begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item Led payments frontend web team, mentored freshers/intern developers, and provided feedback to enhance their skills and knowledge.
-        \item Implemented KYC (Know Your Customer) and KYB (Know Your Business) features to enhance the security and compliance of the application.
-        \item Worked on the Checkout feature to improve the user experience during the payment process. 
-        \item Migrated codebase from JavaScript to TypeScript, resulting in improved code readability and maintainability.
-    \end{itemize}
-\end{minipage}
-}
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-% SKILLS
-%----------------------------------------------------------------------------------------
-\section{Skills}
-\begin{tabularx}{\linewidth}{@{}l X@{}}
-\textbf{Languages and Frameworks:} &  \normalsize{NextJS, ReactJS, TypeScript, JavaScript, GraphQL}\\
-\textbf{Other Tools and Technologies:}  &  \normalsize{Tailwind, MUI, SCSS, JEST, Mobx, Zustand}\\ 
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-% PROJECTS
-%----------------------------------------------------------------------------------------
-\section{Projects}
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{RacketMart} \textsc{E-Commerce App} &  \href{https://github.com/AnkitKarnAK/racketmart-ecommerce}{Github}  \hfill \href{https://racketmart.netlify.app}{https://racketmart.netlify.app} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{
-Tech Stack: MERN \newline
-• Login/Signup • Add to Cart / Remove from Cart • Increase/Decrease Item Quantity • Add / Remove to Wishlist
-}  \\
-\end{tabularx}
-
-%----------------------------------------------------------------------------------------
-% EDUCATION
-%----------------------------------------------------------------------------------------
-\section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-Web Development Bootcamp at \textbf{NeoGCamp} & \hfill 2021 \\
-B.Tech: Computer Science And Engineering (CSE) at \textbf{SIET, Nilokheri} & \hfill 2016 - 2020 \\ 
-\end{tabularx}
-
-\vfill
-
-\end{document}
-%----------------------------------------------------------------------------------------
-%	THE MIT LICENSE
-%----------------------------------------------------------------------------------------
-%	(C) 2021 Jitin Nair
 %
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------------------------------------------------------------------------------------------%
 
 %----------------------------------------------------------------------------------------
 %	DOCUMENT DEFINITION
 %----------------------------------------------------------------------------------------
+
+% article class because we want to fully customize the page and not use a cv template
 \documentclass[a4paper,12pt]{article}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES
@@ -187,47 +50,71 @@ B.Tech: Computer Science And Engineering (CSE) at \textbf{SIET, Nilokheri} & \hf
 \usepackage{url}
 \usepackage{parskip} 	
 
-% Packages for formatting
+%other packages for formatting
 \RequirePackage{color}
 \RequirePackage{graphicx}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage[scale=0.9]{geometry}
 
-% Tabular and list environments
+%tabularx environment
 \usepackage{tabularx}
-\usepackage{enumitem}
-\newcolumntype{C}{>{\centering\arraybackslash}X}
-\usepackage{supertabular}
 
-% Custom \section
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
 \usepackage{titlesec}				
 \usepackage{multicol}
 \usepackage{multirow}
 
-% Publications
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
 \usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
 
-% Setup hyperref package
+%Setup hyperref package, and colours for links
 \usepackage[unicode, draft=false]{hyperref}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
 \addbibresource{citations.bib}
 \setlength\bibitemsep{1em}
 
-% Social icons
+%for social icons
 \usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
 
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
 \begin{document}
 
-% Non-numbered pages
+% non-numbered pages
 \pagestyle{empty} 
 
 %----------------------------------------------------------------------------------------
 %	TITLE
 %----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
 \begin{tabularx}{\linewidth}{@{} C @{}}
 \Huge{Ankit Karn} \\[7.5pt]
 \textbf{Founding Engineer} \\[7.5pt]
@@ -239,25 +126,24 @@ B.Tech: Computer Science And Engineering (CSE) at \textbf{SIET, Nilokheri} & \hf
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
-% SUMMARY
+% EXPERIENCE SECTIONS
 %----------------------------------------------------------------------------------------
+
+%Interests/ Keywords/ Summary
 \section{Summary}
 Founding Engineer at an early-stage e-commerce startup, I showcased proficiency in technologies such as React, Next.js, TypeScript, JavaScript, and GraphQL. In this role, I took the lead in developing fundamental e-commerce features from the ground up, ensuring a competitive and robust platform. Leveraging my prior experience as an SDE2, I also focused on scaling payment systems and enhancing security and compliance for an all-encompassing impact.
-
-%----------------------------------------------------------------------------------------
-% WORK EXPERIENCE
-%----------------------------------------------------------------------------------------
+%Experience
 \section{Work Experience}
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{Founding Engineer}, \textsc{DSLR Technologies} & \hfill June 2023 - Present \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item Implemented core e-commerce features like Products, Collection, Cart, Checkout, Wishlist, Buy Now, Order on WhatsApp, Return Refund, Search and Filter, and more from scratch.
-        \item Migrated project from our proprietary backend to the Shopify backend, seamlessly integrating our custom frontend with Shopify's GraphQL Storefront APIs.
-        \item Implemented A/B features, allowing to have different UI flows simultaneously, to test which one is giving better outcomes.
+        \item[•] Implemented core e-commerce features like Products, Collection, Cart, Checkout, Wishlist, Buy Now, Order on WhatsApp, Return Refund, Search and Filter, and more from scratch.
+        \item[•] Migrated project from our proprietary backend to the Shopify backend, seamlessly integrating our custom frontend with Shopify's GraphQL Storefront APIs.
+        \item[•] Implemented A/B features, allowing to have different UI flows simultaneously, to test which one is giving better outcomes.
     \end{itemize}
-\end{minipage}
+    \end{minipage}
 }
 \end{tabularx}
 
@@ -268,28 +154,27 @@ Founding Engineer at an early-stage e-commerce startup, I showcased proficiency 
 \multicolumn{2}{@{}X@{}}{
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item Led payments frontend web team, mentored freshers/intern developers, and provided feedback to enhance their skills and knowledge.
-        \item Implemented KYC (Know Your Customer) and KYB (Know Your Business) features to enhance the security and compliance of the application.
-        \item Worked on the Checkout feature to improve the user experience during the payment process. 
-        \item Migrated codebase from JavaScript to TypeScript, resulting in improved code readability and maintainability.
+        \item[•] Led payments frontend web team, mentored freshers/intern developers, and provided feedback to enhance their skills and knowledge.
+        \item[•] Implemented KYC (Know Your Customer) and KYB (Know Your Business) features to enhance the security and compliance of the application.
+        \item[•] Worked on the Checkout feature to improve the user experience during the payment process. 
+        \item[•] Migrated codebase from JavaScript to TypeScript, resulting in improved code readability and maintainability.
     \end{itemize}
-\end{minipage}
+    \end{minipage}
 }
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
-% SKILLS
+%	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-\textbf{Languages and Frameworks:} &  \normalsize{NextJS, ReactJS, TypeScript, JavaScript, GraphQL}\\
-\textbf{Other Tools and Technologies:}  &  \normalsize{Tailwind, MUI, SCSS, JEST, Mobx, Zustand}\\ 
+\textbf{Language or Frameworks:} &  \normalsize{NextJS, ReactJS, TypeScript, JavaScript, GraphQL}\\
+Other Tools and Technologies:  &  \normalsize{Tailwind, MUI, SCSS, JEST, Mobx, Zustand}\\ 
 \end{tabularx}
 
-%----------------------------------------------------------------------------------------
-% PROJECTS
-%----------------------------------------------------------------------------------------
+%Projects
 \section{Projects}
+
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{RacketMart} \textsc{E-Commerce App} &  \href{https://github.com/AnkitKarnAK/racketmart-ecommerce}{Github}  \hfill \href{https://racketmart.netlify.app}{https://racketmart.netlify.app} \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
@@ -299,12 +184,14 @@ Tech Stack: MERN \newline
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
-% EDUCATION
+%	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
 Web Development Bootcamp at \textbf{NeoGCamp} & \hfill 2021 \\
-B.Tech: Computer Science And Engineering (CSE) at \textbf{SIET, Nilokheri} & \hfill 2016 - 2020 \\ 
+B.Tech: 
+Computer Science And 
+Engineering (CSE) at \textbf{SIET, Nilokheri} & \hfill 2016 - 2020 \\ 
 \end{tabularx}
 
 \vfill
